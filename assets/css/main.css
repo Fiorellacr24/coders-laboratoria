@@ -2,8 +2,21 @@
 	font-family: 'Muli', sans-serif;
 }
 
-.coders > img {
+.coders img {
 	width: 250px;
 	height: 250px;
+	border-radius: 160px;
+	border: 5px solid #ddd;
+    padding: 5px; 
+    margin: 15px;
 }
+ 
+.coders img:hover {
+    margin-top: 2px;
+    opacity: 0.85;
+    filter: alpha(opacity=100);
+}
+
+
+
 
